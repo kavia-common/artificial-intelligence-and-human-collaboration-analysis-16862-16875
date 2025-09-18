@@ -1,10 +1,10 @@
 ---
 # Global deck settings
 theme: default
-title: Your Presentation Title
+title: "AI vs Humans: Strengths, Weaknesses, and Collaboration"
 info: |
-  Professional presentation template with dark theme
-  20 slides with modern components
+  A professional, Ocean Professional styled deck exploring Artificial Intelligence and human capabilities,
+  with structured sections, comparison tables, and collaboration patterns.
 class: text-left
 mdc: true
 transition: slide-left
@@ -15,271 +15,359 @@ css: |
   @import "./style.css";
 ---
 
-# PROJECT TITLE
+# AI vs Humans
 <div class="title-slide with-hero-glow">
   <div class="hero-copy">
-    <h2 class="text-hero">Transform Your Business with Innovation</h2>
-    <p class="subtitle text-md">A comprehensive solution for modern enterprises</p>
-    <div class="subtitle text-xs">Presenter Name • Date • contact@example.com</div>
+    <h2 class="text-hero">Strengths, Weaknesses, and Collaboration</h2>
+    <p class="subtitle text-md">A comparative exploration of intelligence—biological and artificial</p>
+    <div class="subtitle text-xs">Presenter • Date • company@example.com</div>
     <div class="hero-ctas mt-2">
-      <button class="btn-primary">Get Started</button>
-      <button class="btn-secondary">Learn More</button>
+      <button class="btn-primary">Start</button>
+      <button class="btn-secondary">Agenda</button>
     </div>
   </div>
 </div>
 
 ---
 
-# The Challenge
-
-<div class="problem-grid">
-  <div class="problem-card">
-    <div class="eyebrow">Current State</div>
-    <h3 class="feature-title">Market Inefficiencies</h3>
-    <ul class="points-clean">
-      <li>Complex processes and workflows</li>
-      <li>Disconnected systems and data silos</li>
-      <li>High operational costs</li>
-    </ul>
-  </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Industry Trends</div>
-    <h3 class="feature-title">Rapid Digital Evolution</h3>
-    <ul class="points-clean">
-      <li>Accelerating technology adoption</li>
-      <li>Changing customer expectations</li>
-      <li>New competitive pressures</li>
-    </ul>
-  </div>
-
-  <div class="problem-card">
-    <div class="eyebrow">Gap Analysis</div>
-    <h3 class="feature-title">Missing Capabilities</h3>
-    <ul class="points-clean">
-      <li>Limited automation tools</li>
-      <li>Insufficient analytics</li>
-      <li>Poor integration options</li>
-      <li>Lack of scalability</li>
-    </ul>
-  </div>
-</div>
-
----
-
-# Our Solution
-
-A comprehensive platform that addresses key business challenges
-
-<div class="stats-band mt-2">
-  <div class="stat-card">
-    <div class="stat-number">10x</div>
-    <div class="stat-label">Faster Processing</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">50%</div>
-    <div class="stat-label">Cost Reduction</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">99.9%</div>
-    <div class="stat-label">Uptime</div>
-  </div>
-</div>
+# Agenda
 
 <div class="card-grid three mt-2">
   <div class="feature-card">
-    <div class="eyebrow">Core</div>
-    <h3 class="feature-title">Intelligent Automation</h3>
-    <p class="muted">Streamline workflows with AI-powered processes</p>
+    <div class="eyebrow">01</div>
+    <h3 class="feature-title">Foundations</h3>
+    <ul class="points-clean">
+      <li>Definitions and scope</li>
+      <li>Brief history</li>
+    </ul>
   </div>
-
   <div class="feature-card">
-    <div class="eyebrow">Integration</div>
-    <h3 class="feature-title">Seamless Connectivity</h3>
-    <p class="muted">Connect all your tools and systems effortlessly</p>
+    <div class="eyebrow">02</div>
+    <h3 class="feature-title">Comparisons</h3>
+    <ul class="points-clean">
+      <li>Strengths and weaknesses</li>
+      <li>Capabilities overview</li>
+    </ul>
   </div>
-
   <div class="feature-card">
-    <div class="eyebrow">Analytics</div>
-    <h3 class="feature-title">Real-time Insights</h3>
-    <p class="muted">Make data-driven decisions with powerful analytics</p>
+    <div class="eyebrow">03</div>
+    <h3 class="feature-title">Collaboration</h3>
+    <ul class="points-clean">
+      <li>Interaction patterns</li>
+      <li>Future outlook</li>
+    </ul>
   </div>
 </div>
 
 ---
 
-# Key Features
+# Foundations: What is Intelligence?
 
 <div class="split-cols mt-2">
   <div class="left">
     <div class="feature-card">
-      <h3 class="feature-title">Smart Dashboard</h3>
-      <p class="muted">Centralized control and monitoring</p>
-    </div>
-    <div class="feature-card">
-      <h3 class="feature-title">Advanced Analytics</h3>
-      <p class="muted">Deep insights and predictive modeling</p>
-    </div>
-    <div class="feature-card">
-      <h3 class="feature-title">Workflow Automation</h3>
-      <p class="muted">Streamline repetitive tasks</p>
-    </div>
-  </div>
-  <div class="right">
-    <div class="glass-frame tall">
-      <div class="placeholder">Product Screenshot / Dashboard UI</div>
-    </div>
-  </div>
-</div>
-
----
-
-# Architecture Overview
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryTextColor": "#E6EDF3",
-    "primaryColor": "#0B1220",
-    "lineColor": "#6E7681"
-  }
-}}%%
-
-flowchart TD
-    UI[🖥️ User Interface] --> API[⚙️ API Gateway]
-    API --> Auth[🔐 Authentication]
-    API --> Core[💼 Core Services]
-    Core --> DB[(📊 Database)]
-    Core --> Cache[(⚡ Cache)]
-    Core --> Queue[📬 Message Queue]
-    Queue --> Workers[🤖 Background Workers]
-    
-    style UI fill:#1C1A2B,stroke:#6B7FEB
-    style API fill:#1C1A2B,stroke:#6B7FEB
-    style Core fill:#1C1A2B,stroke:#6B7FEB
-    style DB fill:#2B2931,stroke:#40D79E
-    style Cache fill:#2B2931,stroke:#FFC75A
-```
-
----
-
-# Use Cases
-
-<div class="card-grid three mt-2">
-  <div class="feature-card"><h3 class="feature-title">Enterprise Resource Planning</h3><p class="muted">Unified business management</p></div>
-  <div class="feature-card"><h3 class="feature-title">Customer Relationship Management</h3><p class="muted">360-degree customer view</p></div>
-  <div class="feature-card"><h3 class="feature-title">Supply Chain Optimization</h3><p class="muted">End-to-end visibility</p></div>
-  <div class="feature-card"><h3 class="feature-title">Financial Analytics</h3><p class="muted">Real-time financial insights</p></div>
-  <div class="feature-card"><h3 class="feature-title">HR Management</h3><p class="muted">Streamlined HR processes</p></div>
-  <div class="feature-card"><h3 class="feature-title">Project Management</h3><p class="muted">Collaborative project tracking</p></div>
-</div>
-
----
-
-# Market Opportunity
-
-<div class="split-cols mt-2">
-  <div class="left">
-    <div class="feature-card">
-      <div class="eyebrow">TAM</div>
-      <h3 class="feature-title">Total Addressable Market</h3>
-      <p class="muted">$100B+ globally</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Growth</div>
-      <h3 class="feature-title">Market Expansion</h3>
-      <p class="muted">25% CAGR expected</p>
-    </div>
-    <div class="feature-card">
-      <div class="eyebrow">Segments</div>
+      <div class="eyebrow">Human</div>
+      <h3 class="feature-title">Biological Intelligence</h3>
       <ul class="points-clean">
-        <li>Enterprise (500+ employees)</li>
-        <li>Mid-market (50-500)</li>
-        <li>SMB (under 50)</li>
+        <li>Adaptive cognition, emotion, and social context</li>
+        <li>Reasoning with incomplete information</li>
+        <li>Embodied understanding through lived experience</li>
+      </ul>
+    </div>
+    <div class="feature-card">
+      <div class="eyebrow">AI</div>
+      <h3 class="feature-title">Artificial Intelligence</h3>
+      <ul class="points-clean">
+        <li>Statistical learning and pattern recognition</li>
+        <li>Scale and speed beyond human capacity</li>
+        <li>Task-specific optimization</li>
       </ul>
     </div>
   </div>
   <div class="right">
     <div class="glass-frame">
-      <div class="placeholder">Market Size Chart</div>
+      <div class="placeholder">Timeline: Milestones from Symbolic AI to Deep Learning</div>
     </div>
   </div>
 </div>
 
 ---
 
-# Competitive Landscape
-
-<div class="glass-frame wide mt-2">
-  <div class="placeholder">Competitive Positioning Matrix</div>
-</div>
+# Strengths: Humans
 
 <div class="card-grid three mt-2">
   <div class="feature-card">
-    <h3 class="feature-title">Our Advantages</h3>
+    <div class="eyebrow">Creativity</div>
+    <h3 class="feature-title">Novel Idea Generation</h3>
     <ul class="points-clean">
-      <li>Superior technology</li>
-      <li>Better user experience</li>
-      <li>Competitive pricing</li>
+      <li>Conceptual blending and metaphor</li>
+      <li>Artistic expression and intuition</li>
+      <li>Serendipitous discovery</li>
     </ul>
   </div>
   <div class="feature-card">
-    <h3 class="feature-title">Market Position</h3>
+    <div class="eyebrow">Ethics</div>
+    <h3 class="feature-title">Values & Judgement</h3>
     <ul class="points-clean">
-      <li>Leader in innovation</li>
-      <li>Strong brand recognition</li>
-      <li>Growing market share</li>
+      <li>Norms, culture, and empathy</li>
+      <li>Context-aware moral reasoning</li>
+      <li>Long-term societal impact</li>
     </ul>
   </div>
   <div class="feature-card">
-    <h3 class="feature-title">Differentiators</h3>
+    <div class="eyebrow">Generalization</div>
+    <h3 class="feature-title">Transfer Across Domains</h3>
     <ul class="points-clean">
-      <li>AI-powered features</li>
-      <li>Seamless integrations</li>
-      <li>Enterprise-grade security</li>
+      <li>Learning from few examples</li>
+      <li>Commonsense reasoning</li>
+      <li>Flexible goal setting</li>
     </ul>
   </div>
 </div>
 
 ---
 
-# Implementation Timeline
+# Strengths: AI
+
+<div class="stats-band mt-2">
+  <div class="stat-card">
+    <div class="stat-number">ms</div>
+    <div class="stat-label">Reaction Time</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">PB</div>
+    <div class="stat-label">Data Scale</div>
+  </div>
+  <div class="stat-card">
+    <div class="stat-number">24/7</div>
+    <div class="stat-label">Availability</div>
+  </div>
+</div>
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Speed</div>
+    <h3 class="feature-title">Rapid Computation</h3>
+    <ul class="points-clean">
+      <li>Massive parallel processing</li>
+      <li>Large-scale pattern matching</li>
+      <li>Automated decision support</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Consistency</div>
+    <h3 class="feature-title">Repeatable Outcomes</h3>
+    <ul class="points-clean">
+      <li>No fatigue or distraction</li>
+      <li>Deterministic pipelines</li>
+      <li>Quality at scale</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Coverage</div>
+    <h3 class="feature-title">Breadth of Data</h3>
+    <ul class="points-clean">
+      <li>Multi-modal ingestion</li>
+      <li>Global knowledge synthesis</li>
+      <li>Continuous learning loops</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+# Weaknesses: Humans
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Bias</div>
+    <h3 class="feature-title">Cognitive Limitations</h3>
+    <ul class="points-clean">
+      <li>Heuristics and shortcuts</li>
+      <li>Inconsistency under stress</li>
+      <li>Memory constraints</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Throughput</div>
+    <h3 class="feature-title">Processing Limits</h3>
+    <ul class="points-clean">
+      <li>Fatigue and error rates</li>
+      <li>Limited parallelism</li>
+      <li>Slow data crunching</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Scalability</div>
+    <h3 class="feature-title">Operational Scale</h3>
+    <ul class="points-clean">
+      <li>Training time and cost</li>
+      <li>Coordination overhead</li>
+      <li>Inconsistent documentation</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+# Weaknesses: AI
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Alignment</div>
+    <h3 class="feature-title">Objective Mismatch</h3>
+    <ul class="points-clean">
+      <li>Optimizing proxies vs values</li>
+      <li>Specification gaming</li>
+      <li>Reward hacking</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Robustness</div>
+    <h3 class="feature-title">Generalization Gaps</h3>
+    <ul class="points-clean">
+      <li>Distribution shifts</li>
+      <li>Adversarial fragility</li>
+      <li>Hallucinations and errors</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Transparency</div>
+    <h3 class="feature-title">Explainability</h3>
+    <ul class="points-clean">
+      <li>Opaque decision paths</li>
+      <li>Traceability limits</li>
+      <li>Regulatory scrutiny</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+# Comparison Overview
+
+<div class="card">
+  <div class="eyebrow">Table</div>
+  <h3 class="feature-title">AI vs Human Capabilities</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Dimension</th>
+        <th>Humans</th>
+        <th>AI</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Speed</td>
+        <td>Slow-to-moderate, context-rich</td>
+        <td>Extremely fast, context-limited</td>
+      </tr>
+      <tr>
+        <td>Creativity</td>
+        <td>High novelty, cross-domain</td>
+        <td>Pattern-based, derivative</td>
+      </tr>
+      <tr>
+        <td>Consistency</td>
+        <td>Variable under conditions</td>
+        <td>High repeatability</td>
+      </tr>
+      <tr>
+        <td>Ethics & Values</td>
+        <td>Socially grounded judgement</td>
+        <td>Programmed/learned proxies</td>
+      </tr>
+      <tr>
+        <td>Interpretability</td>
+        <td>Explainable but subjective</td>
+        <td>Often opaque (black-box)</td>
+      </tr>
+      <tr>
+        <td>Data Scale</td>
+        <td>Limited, experiential</td>
+        <td>Massive, multi-modal</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+---
+
+# Task Fit Matrix
+
+<div class="glass-frame wide mt-2">
+  <div class="placeholder">2x2 Matrix: Creativity vs Scale</div>
+</div>
+
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Human-led</div>
+    <h3 class="feature-title">Strategy & Ethics</h3>
+    <ul class="points-clean">
+      <li>Ambiguous problem framing</li>
+      <li>High-stakes decisions</li>
+      <li>Socio-cultural nuance</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">AI-led</div>
+    <h3 class="feature-title">Automation & Scale</h3>
+    <ul class="points-clean">
+      <li>High-volume data processing</li>
+      <li>Predictive maintenance</li>
+      <li>Real-time anomaly detection</li>
+    </ul>
+  </div>
+  <div class="feature-card">
+    <div class="eyebrow">Hybrid</div>
+    <h3 class="feature-title">Decision Intelligence</h3>
+    <ul class="points-clean">
+      <li>Human-in-the-loop review</li>
+      <li>Guardrails and overrides</li>
+      <li>Iterative learning</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+# Collaboration Patterns
 
 <div class="timeline mt-2">
   <div class="time-node">
     <div class="time-dot"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 1: Q1 2025</div>
-      <h4>Foundation</h4>
+      <div class="eyebrow">Pattern 1</div>
+      <h4>Human-in-the-Loop</h4>
       <ul class="points-clean">
-        <li>System architecture design</li>
-        <li>Core infrastructure setup</li>
-        <li>Initial team formation</li>
+        <li>AI recommends, human decides</li>
+        <li>Feedback used to retrain</li>
+        <li>Clear accountability</li>
       </ul>
     </div>
   </div>
   <div class="time-node">
     <div class="time-dot"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 2: Q2 2025</div>
-      <h4>Development</h4>
+      <div class="eyebrow">Pattern 2</div>
+      <h4>Human-on-the-Loop</h4>
       <ul class="points-clean">
-        <li>MVP development</li>
-        <li>Beta testing program</li>
-        <li>Initial customer feedback</li>
+        <li>AI acts autonomously</li>
+        <li>Human monitors and intervenes</li>
+        <li>Safety thresholds and alerts</li>
       </ul>
     </div>
   </div>
   <div class="time-node">
     <div class="time-dot future"></div>
     <div class="time-card">
-      <div class="eyebrow">Phase 3: Q3 2025</div>
-      <h4>Launch</h4>
+      <div class="eyebrow">Pattern 3</div>
+      <h4>Human-out-of-the-Loop</h4>
       <ul class="points-clean">
-        <li>Public release</li>
-        <li>Marketing campaign</li>
-        <li>Customer onboarding</li>
+        <li>Fully automated pipelines</li>
+        <li>Strong constraints and audits</li>
+        <li>Use for low-risk contexts</li>
       </ul>
     </div>
   </div>
@@ -287,226 +375,135 @@ flowchart TD
 
 ---
 
-# Success Metrics
+# Risk Management
 
-<div class="stats-grid mt-2">
-  <div class="stat-card">
-    <div class="stat-number">1M+</div>
-    <div class="stat-label">Active Users</div>
+<div class="card-grid three mt-2">
+  <div class="feature-card">
+    <div class="eyebrow">Governance</div>
+    <h3 class="feature-title">Policies & Controls</h3>
+    <ul class="points-clean">
+      <li>Access, audit, and oversight</li>
+      <li>Model lifecycle management</li>
+      <li>Incident response plans</li>
+    </ul>
   </div>
-  <div class="stat-card">
-    <div class="stat-number">$50M</div>
-    <div class="stat-label">ARR</div>
+  <div class="feature-card">
+    <div class="eyebrow">Responsible AI</div>
+    <h3 class="feature-title">Ethics & Safety</h3>
+    <ul class="points-clean">
+      <li>Fairness, bias, explainability</li>
+      <li>Security and privacy</li>
+      <li>Human dignity & autonomy</li>
+    </ul>
   </div>
-  <div class="stat-card">
-    <div class="stat-number">95%</div>
-    <div class="stat-label">Retention Rate</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">150</div>
-    <div class="stat-label">Enterprise Clients</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">4.8</div>
-    <div class="stat-label">Customer Rating</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-number">24/7</div>
-    <div class="stat-label">Support</div>
+  <div class="feature-card">
+    <div class="eyebrow">Compliance</div>
+    <h3 class="feature-title">Regulatory Alignment</h3>
+    <ul class="points-clean">
+      <li>AI Act, GDPR, sector regulations</li>
+      <li>Documentation and traceability</li>
+      <li>Annexes and model cards</li>
+    </ul>
   </div>
 </div>
 
 ---
 
-# Case Study
+# Operating Model
 
 <div class="split-cols mt-2">
   <div class="left">
     <div class="feature-card">
-      <div class="eyebrow">Client</div>
-      <h3 class="feature-title">Fortune 500 Company</h3>
+      <div class="eyebrow">Teams</div>
+      <h3 class="feature-title">Human Roles</h3>
       <ul class="points-clean">
-        <li>10,000+ employees</li>
-        <li>Global operations</li>
-        <li>Complex IT infrastructure</li>
+        <li>Domain experts and reviewers</li>
+        <li>Ethics and risk councils</li>
+        <li>Change management leaders</li>
       </ul>
     </div>
     <div class="feature-card">
-      <div class="eyebrow">Challenge</div>
+      <div class="eyebrow">Systems</div>
+      <h3 class="feature-title">AI Components</h3>
       <ul class="points-clean">
-        <li>Fragmented systems</li>
-        <li>Manual processes</li>
-        <li>Limited visibility</li>
+        <li>Data pipelines and feature stores</li>
+        <li>Model training and evaluation</li>
+        <li>Observability & drift detection</li>
       </ul>
     </div>
   </div>
   <div class="right">
-    <div class="feature-card glass">
-      <div class="eyebrow">Results</div>
-      <h3 class="feature-title">Transformation Achieved</h3>
-      <ul class="points-clean">
-        <li>60% efficiency improvement</li>
-        <li>$5M annual savings</li>
-        <li>Real-time insights</li>
-      </ul>
-    </div>
-    <div class="glass-frame short">
-      <div class="placeholder">ROI Chart</div>
+    <div class="glass-frame">
+      <div class="placeholder">RACI / Swimlane Diagram</div>
     </div>
   </div>
 </div>
 
 ---
 
-# Pricing & Plans
+# Case Examples
 
 <div class="card-grid three mt-2">
   <div class="feature-card">
-    <div class="eyebrow">Starter</div>
-    <h3 class="feature-title">$99/month</h3>
+    <div class="eyebrow">Healthcare</div>
+    <h3 class="feature-title">Triage & Diagnosis</h3>
     <ul class="points-clean">
-      <li>Up to 10 users</li>
-      <li>Basic features</li>
-      <li>Email support</li>
-      <li>5GB storage</li>
-    </ul>
-    <button class="btn-secondary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="pill">Popular</div>
-    <h3 class="feature-title">$299/month</h3>
-    <ul class="points-clean">
-      <li>Up to 50 users</li>
-      <li>Advanced features</li>
-      <li>Priority support</li>
-      <li>100GB storage</li>
-      <li>API access</li>
-    </ul>
-    <button class="btn-primary mt-2">Choose Plan</button>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Enterprise</div>
-    <h3 class="feature-title">Custom</h3>
-    <ul class="points-clean">
-      <li>Unlimited users</li>
-      <li>All features</li>
-      <li>Dedicated support</li>
-      <li>Unlimited storage</li>
-      <li>Custom integrations</li>
-    </ul>
-    <button class="btn-secondary mt-2">Contact Sales</button>
-  </div>
-</div>
-
----
-
-# Technology Stack
-
-<div class="feature-grid mt-2">
-  <div class="feature-card">
-    <div class="eyebrow">Frontend</div>
-    <ul class="points-clean">
-      <li>React / Vue.js / Angular</li>
-      <li>TypeScript</li>
-      <li>Tailwind CSS</li>
+      <li>AI prioritizes cases</li>
+      <li>Clinician verifies</li>
+      <li>Safety nets for escalation</li>
     </ul>
   </div>
   <div class="feature-card">
-    <div class="eyebrow">Backend</div>
+    <div class="eyebrow">Finance</div>
+    <h3 class="feature-title">Fraud Detection</h3>
     <ul class="points-clean">
-      <li>Node.js / Python / Go</li>
-      <li>GraphQL / REST APIs</li>
-      <li>Microservices</li>
+      <li>AI flags anomalies</li>
+      <li>Analyst investigates</li>
+      <li>Feedback improves model</li>
     </ul>
   </div>
   <div class="feature-card">
-    <div class="eyebrow">Infrastructure</div>
+    <div class="eyebrow">Manufacturing</div>
+    <h3 class="feature-title">Predictive Maintenance</h3>
     <ul class="points-clean">
-      <li>AWS / Azure / GCP</li>
-      <li>Kubernetes</li>
-      <li>CI/CD pipelines</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Data</div>
-    <ul class="points-clean">
-      <li>PostgreSQL / MongoDB</li>
-      <li>Redis</li>
-      <li>Elasticsearch</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Security</div>
-    <ul class="points-clean">
-      <li>End-to-end encryption</li>
-      <li>OAuth 2.0 / SAML</li>
-      <li>SOC 2 compliant</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <div class="eyebrow">Monitoring</div>
-    <ul class="points-clean">
-      <li>Prometheus / Grafana</li>
-      <li>ELK Stack</li>
-      <li>APM tools</li>
+      <li>Sensor-driven alerts</li>
+      <li>Planner schedules repairs</li>
+      <li>Downtime reduction</li>
     </ul>
   </div>
 </div>
 
 ---
 
-# Team
+# Summary: Key Takeaways
 
-<div class="card-grid four mt-2">
+<div class="card-grid three mt-2">
   <div class="feature-card">
-    <h4 class="feature-title">CEO</h4>
-    <p class="muted small">20+ years experience</p>
-    <p class="muted small">Former Fortune 500 exec</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CTO</h4>
-    <p class="muted small">15+ years in tech</p>
-    <p class="muted small">Ex-FAANG engineer</p>
-  </div>
-  <div class="feature-card">
-    <h4 class="feature-title">CPO</h4>
-    <p class="muted small">Product visionary</p>
-    <p class="muted small">3 successful exits</p>
+    <div class="eyebrow">Complementarity</div>
+    <h3 class="feature-title">Augment, Don’t Replace</h3>
+    <ul class="points-clean">
+      <li>Humans set goals and values</li>
+      <li>AI scales execution</li>
+      <li>Hybrid systems win</li>
+    </ul>
   </div>
   <div class="feature-card">
-    <h4 class="feature-title">CFO</h4>
-    <p class="muted small">Finance expert</p>
-    <p class="muted small">IPO experience</p>
+    <div class="eyebrow">Governance</div>
+    <h3 class="feature-title">Trust by Design</h3>
+    <ul class="points-clean">
+      <li>Transparent processes</li>
+      <li>Safety and oversight</li>
+      <li>Continuous monitoring</li>
+    </ul>
   </div>
-</div>
-
-<div class="card mt-2">
-  <h3>Advisory Board</h3>
-  <ul class="points-clean">
-    <li>Industry veterans from leading tech companies</li>
-    <li>Domain experts in enterprise software</li>
-    <li>Strategic advisors with deep market connections</li>
-  </ul>
-</div>
-
----
-
-# Customer Testimonials
-
-<div class="card-grid two mt-2">
-  <div class="feature-card glass">
-    <p class="muted">"This platform transformed our operations. We've seen incredible efficiency gains and cost savings."</p>
-    <div class="mt-2">
-      <strong>John Smith</strong><br>
-      <span class="text-xs muted">CTO, Tech Corp</span>
-    </div>
-  </div>
-  <div class="feature-card glass">
-    <p class="muted">"The best investment we've made. ROI was evident within the first quarter."</p>
-    <div class="mt-2">
-      <strong>Jane Doe</strong><br>
-      <span class="text-xs muted">CEO, Innovation Inc</span>
-    </div>
+  <div class="feature-card">
+    <div class="eyebrow">Readiness</div>
+    <h3 class="feature-title">Capability Building</h3>
+    <ul class="points-clean">
+      <li>Upskilling and change mgmt</li>
+      <li>Data and platform maturity</li>
+      <li>Iterative adoption</li>
+    </ul>
   </div>
 </div>
 
@@ -516,49 +513,24 @@ flowchart TD
 
 <div class="cta-band">
   <div>
-    <div class="overline">Get Started Today</div>
-    <h2 class="text-hero">Ready to Transform Your Business?</h2>
-    <p class="muted">Join thousands of companies already using our platform</p>
+    <div class="overline">Implementation Roadmap</div>
+    <h2 class="text-hero">Pilot • Evaluate • Scale</h2>
+    <p class="muted">Start small, monitor outcomes, expand responsibly</p>
     <div class="cta-actions">
-      <button class="btn-primary">Start Free Trial</button>
-      <button class="btn-secondary">Schedule Demo</button>
+      <button class="btn-primary">Kickoff Workshop</button>
+      <button class="btn-secondary">Capability Assessment</button>
     </div>
   </div>
   <div>
     <div class="card">
       <div class="eyebrow">Contact</div>
       <ul class="points-clean">
-        <li>Sales: sales@example.com</li>
-        <li>Support: support@example.com</li>
-        <li>Phone: 1-800-EXAMPLE</li>
+        <li>Engagements: ai-programs@example.com</li>
+        <li>Governance: responsible-ai@example.com</li>
+        <li>Docs: docs.example.com/ai</li>
       </ul>
-      <div class="muted small mt-4">www.example.com</div>
+      <div class="muted small mt-4">Press S for presenter mode • Use arrow keys to navigate</div>
     </div>
-  </div>
-</div>
-
----
-
-# Appendix
-
-<div class="card-grid two mt-2">
-  <div class="feature-card">
-    <h3 class="feature-title">Resources</h3>
-    <ul class="points-clean">
-      <li>Technical documentation</li>
-      <li>API reference</li>
-      <li>Video tutorials</li>
-      <li>Community forum</li>
-    </ul>
-  </div>
-  <div class="feature-card">
-    <h3 class="feature-title">Legal</h3>
-    <ul class="points-clean">
-      <li>Terms of service</li>
-      <li>Privacy policy</li>
-      <li>Security compliance</li>
-      <li>SLA agreements</li>
-    </ul>
   </div>
 </div>
 
